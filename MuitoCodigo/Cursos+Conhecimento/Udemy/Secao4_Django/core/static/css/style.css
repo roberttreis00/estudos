@@ -1,0 +1,39 @@
+/* Centraliza o formulário no meio da tela */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Cor de fundo suave */
+}
+
+/* Estiliza a caixa do formulário */
+.form-box {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Botão estilizado */
+.form-box button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.form-box button:hover {
+    background-color: #0056b3;
+}
+
+a{
+    padding: 50px;
+    font-size: 50px;
+    text-decoration: none !important;
+}
