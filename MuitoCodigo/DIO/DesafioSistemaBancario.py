@@ -11,7 +11,7 @@ from datetime import datetime
 from pprint import pprint
 import os
 
-data_atual = datetime.now().strftime("%d/%m/%y")
+data_atual = datetime.today().strftime("%d/%m/%y %H:%M")
 
 
 def gerador_9numeros():
