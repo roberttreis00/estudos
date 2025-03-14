@@ -1,0 +1,2 @@
+É importante classificar e estruturar os dados para saber o que é cada coisa, igual
+uma matrix tem colunas com chave e linhas são seus valores.
