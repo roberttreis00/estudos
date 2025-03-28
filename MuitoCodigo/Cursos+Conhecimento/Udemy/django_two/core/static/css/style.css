@@ -1,0 +1,63 @@
+/* Estilo geral do corpo */
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #1a1a1d, #4e054e);
+    color: #f1f1f1;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Estilizando o título */
+h1 {
+    font-size: 3rem;
+    color: #f1c40f;
+    text-align: center;
+    text-shadow: 0 0 10px #f39c12, 0 0 20px #d35400;
+}
+
+/* Estilizando o formulário */
+form {
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #f1c40f;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #f39c12, 0 0 20px #d35400;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Estilizando os campos do formulário */
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #f39c12;
+    background: #4e054e;
+    color: #f1f1f1;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+/* Estilizando o botão */
+button {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #f1c40f;
+    color: #4e054e;
+    border-color: #f1c40f;
+}
+
+/* Foco nos campos */
+input:focus {
+    outline: none;
+    border-color: #f1c40f;
+    box-shadow: 0 0 10px #f39c12;
+}
