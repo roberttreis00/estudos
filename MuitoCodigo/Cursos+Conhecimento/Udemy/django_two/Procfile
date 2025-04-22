@@ -1,0 +1,1 @@
+web: gunicorn django_two"aqui nome do projeto".wsgi --log-file -

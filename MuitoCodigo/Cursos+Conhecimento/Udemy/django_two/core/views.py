@@ -4,12 +4,15 @@ from django.shortcuts import redirect
 
 
 def index(request):
-    form = Contato(request.POST)
-    if form.is_valid():
-        form.send_email()
+    if str(request.user) != "AnonymousUser":
+        form = Contato(request.POST)
+        if form.is_valid():
+            form.send_email()
 
-        return redirect('index')
+            return redirect('index')
+        else:
+            form = Contato()
+
+        return render(request, 'index.html', {'form': form})
     else:
-        form = Contato()
-
-    return render(request, 'index.html', {'form': form})
+        return redirect('index')

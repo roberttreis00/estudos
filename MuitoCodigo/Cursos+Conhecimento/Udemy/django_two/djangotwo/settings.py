@@ -24,6 +24,7 @@ SECRET_KEY = 'django-insecure-25pf4((uyh26^lk!-0u&d^82phjij@a0ib)@!3t(zegsoy%-6k
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+#DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -125,7 +126,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Configuração de email
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  # comentar
 
 """
 Servidor email configs:
